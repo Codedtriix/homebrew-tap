@@ -1,6 +1,6 @@
 cask "skyremind" do
-  version "1.0.3"
-  sha256 "6a6cf70d523a909c1728c1b17e14a5d2960ef81c00ab6adb6d15ef693fbaf3e6"
+  version "1.0.4"
+  sha256 "ca074d41bad470b8317fb1b4c4e881f1b00a23301120234fac4f52aba451d79a"
 
   url "https://github.com/Codedtriix/homebrew-tap/releases/download/v#{version}/SkyRemind-#{version}.dmg"
   name "SkyRemind"
