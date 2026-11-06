@@ -1,8 +1,8 @@
 cask "skyremind" do
-  version "1.0.0"
-  sha256 "c38f39aa5ac3e1e5b318586b46fca4fc6a1cf513c19f82cef31207d854c4b4f2"
+  version "1.0.1"
+  sha256 "0124d4b540f9c27e83303898f7e74993e8ba9b3d1736a6ff968b071748ce4a4a"
 
-  url "https://github.com/Codedtriix/homebrew-tap/releases/download/v#{version}/SkyRemind-1.0.dmg"
+  url "https://github.com/Codedtriix/homebrew-tap/releases/download/v#{version}/SkyRemind-#{version}.dmg"
   name "SkyRemind"
   desc "Minimalist reminder companion with animated airplane banner alerts"
   homepage "https://codedtrix.in"
