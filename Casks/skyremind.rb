@@ -9,6 +9,12 @@ cask "skyremind" do
 
   app "SkyRemind.app"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-r", "-d", "com.apple.quarantine", "#{appdir}/SkyRemind.app"],
+                   must_succeed: false
+  end
+
   zap trash: [
     "~/Library/Application Support/SkyRemind",
   ]
